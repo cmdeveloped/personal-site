@@ -226,3 +226,13 @@ footer {
 .center {
   margin: auto;
 }
+
+@media screen and (max-width: 991px) {
+  footer {
+    .col-md-4 {
+      p {
+        text-align: center !important;
+      }
+    }
+  }
+}
