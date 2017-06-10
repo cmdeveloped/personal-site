@@ -229,9 +229,20 @@ footer {
 
 @media screen and (max-width: 991px) {
   footer {
+    padding: 10px 0;
     .col-md-4 {
       p {
         text-align: center !important;
+      }
+    }
+    #address {
+      p {
+        margin-bottom: 2px;
+      }
+    }
+    #legal {
+      p {
+        margin-top: 2px;
       }
     }
   }
