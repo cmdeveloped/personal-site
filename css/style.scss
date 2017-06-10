@@ -80,7 +80,7 @@ h1, h2, h3 {
     h2 {
       color: $light;
     }
-    .col-sm-4 {
+    .col-md-4 {
       margin: 15px 0;
       p {
         margin: 35px 0;
@@ -112,7 +112,7 @@ h1, h2, h3 {
     margin: 40px 0 60px 0;
     h1 {
       font-size: 42px;
-      margin: 40px 0;
+      margin: 30px 0;
     }
     h2 {
       font-family: $open;
@@ -138,7 +138,7 @@ h1, h2, h3 {
     h1 {
       color: $primary;
       font-size: 42px;
-      margin-bottom: 40px;
+      margin: 30px 0;
     }
     h2 {
       font-family: $open;
@@ -160,7 +160,7 @@ h1, h2, h3 {
     margin: 40px 0 60px 0;
     h1 {
       font-size: 42px;
-      margin: 40px 0;
+      margin: 30px 0;
     }
     h2 {
       font-family: $open;
@@ -267,15 +267,23 @@ footer {
   .confidence {
     display: none;
   }
+
   .mobiConfidence {
     display: block;
   }
+
   .languages {
     margin: 15px 0;
   }
 
+  .info {
+    a {
+      display: none;
+    }
+  }
+
   .arrow-down {
-    margin: auto !important;
+    margin: -2px auto !important;
   }
 
   footer {
