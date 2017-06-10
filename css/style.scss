@@ -112,7 +112,7 @@ h1, h2, h3 {
     margin: 40px 0 60px 0;
     h1 {
       font-size: 42px;
-      margin-top: 40px;
+      margin: 40px 0;
     }
     h2 {
       font-family: $open;
@@ -160,7 +160,32 @@ h1, h2, h3 {
     margin: 40px 0 60px 0;
     h1 {
       font-size: 42px;
-      margin-top: 40px;
+      margin: 40px 0;
+    }
+    h2 {
+      font-family: $open;
+      font-size: 30px;
+      letter-spacing: -1px;
+      color: $accent;
+      margin-top: 24px;
+    }
+    p {
+      margin: 35px 0;
+      color: $accent;
+    }
+  }
+}
+
+.mobiConfidence {
+  display: hidden;
+  background: $primary;
+  text-align: center;
+  color: #fff;
+  .row {
+    margin: 40px 0 60px 0;
+    h1 {
+      font-size: 42px;
+      margin: 40px 0;
     }
     h2 {
       font-family: $open;
@@ -228,6 +253,12 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .confidence {
+    display: none;
+  }
+  .mobiConfidence {
+    display: block;
+  }
   .languages {
     margin: 15px 0;
   }
