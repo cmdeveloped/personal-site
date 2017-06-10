@@ -228,6 +228,9 @@ footer {
 }
 
 @media screen and (max-width: 991px) {
+  .arrow-down {
+    margin: auto !important;
+  }
   footer {
     padding: 10px 0;
     .col-md-4 {
