@@ -177,7 +177,7 @@ h1, h2, h3 {
 }
 
 .mobiConfidence {
-  display: hidden;
+  display: none;
   background: $primary;
   text-align: center;
   color: #fff;
@@ -252,7 +252,18 @@ footer {
   margin: auto;
 }
 
+// Universal
+
+.hidden {
+  display: none;
+}
+
+.display {
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
+
   .confidence {
     display: none;
   }
@@ -262,9 +273,11 @@ footer {
   .languages {
     margin: 15px 0;
   }
+
   .arrow-down {
     margin: auto !important;
   }
+
   footer {
     padding: 10px 0;
     .col-md-4 {
