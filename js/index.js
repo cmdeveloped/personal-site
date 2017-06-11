@@ -24,4 +24,9 @@ $(document).ready(function() {
       scrollTop: $('#confidence').offset().top
     }, 2000);
   });
+
+  $('#findOut').click(function() {
+    $('.findOut').slideDown();
+    $('#findOut').fadeOut();
+  });
 });

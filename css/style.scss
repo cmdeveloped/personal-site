@@ -165,17 +165,20 @@ h1, h2, h3 {
         color: $light;
       }
     }
-    a {
+    #findOut {
       color: $light;
       text-decoration: none;
       opacity: .7;
     }
-    a:hover {
+    #findOut:hover {
       cursor: pointer;
       color: $light;
       opacity: 1;
       padding: 10px 25px;
       border-bottom: 2px solid $primary;
+    }
+    .findOut {
+      display: none;
     }
     p {
       margin: 35px 0;
