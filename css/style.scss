@@ -136,7 +136,7 @@ h1, h2, h3 {
   background: $accent;
   text-align: center;
   .row {
-    margin: 40px 0 60px 0;
+    margin: 40px 0 75px 0;
     h1 {
       color: $primary;
       font-size: 42px;
@@ -147,9 +147,40 @@ h1, h2, h3 {
       letter-spacing: -1px;
       color: #212121;
       opacity: .7;
+      margin-top: 40px;
+    }
+    h3 {
+      font-family: $open;
+      letter-spacing: -1px;
+      color: #212121;
+      opacity: .7;
+      margin-bottom: 40px;
+    }
+    ul {
+      margin: 25px 0;
+      li {
+        list-style-type: none;
+        margin: 5px 0;
+        font-weight: bold;
+        color: $light;
+      }
+    }
+    a {
+      color: $light;
+      text-decoration: none;
+      opacity: .7;
+    }
+    a:hover {
+      cursor: pointer;
+      color: $light;
+      opacity: 1;
+      padding: 10px 25px;
+      border-bottom: 2px solid $primary;
     }
     p {
       margin: 35px 0;
+      font-weight: bold;
+      color: $light;
     }
   }
 }
@@ -322,5 +353,5 @@ footer {
       }
     }
   }
-  
+
 }
