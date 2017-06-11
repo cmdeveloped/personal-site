@@ -264,6 +264,8 @@ footer {
   display: block;
 }
 
+// Media queries
+
 @media screen and (max-width: 991px) {
 
   .confidence {
@@ -281,6 +283,9 @@ footer {
   .info {
     a {
       display: none;
+    }
+    #concept-info {
+      margin-top: 35px;
     }
   }
 
@@ -306,4 +311,16 @@ footer {
       }
     }
   }
+}
+
+@media screen and (max-width: 643px) {
+
+  .info {
+    #languages {
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+  
 }
