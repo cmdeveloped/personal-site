@@ -175,7 +175,7 @@ h1, h2, h3 {
       padding: 10px 25px;
       margin: auto;
       border-bottom: 2px solid $light;
-      width: 110px;
+      width: 10%;
     }
     .dropdown:hover {
       cursor: pointer;
@@ -360,6 +360,14 @@ footer {
     #languages {
       i {
         font-size: 40px;
+      }
+    }
+  }
+
+  .create {
+    .row {
+      .dropdown {
+        width: 40%;
       }
     }
   }
