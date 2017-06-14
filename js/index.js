@@ -46,6 +46,10 @@ $(document).ready(function() {
    }
   });
 
+  $prompt.click(function() {
+    $prompt.fadeOut(100);
+  });
+
   $btn.click(function() {
     console.log('worked');
     $prompt.fadeOut(500, easing='swing');
