@@ -175,7 +175,7 @@ h1, h2, h3 {
       padding: 10px 25px;
       margin: auto;
       border-bottom: 2px solid $light;
-      width: 10%;
+      width: 160px;
     }
     .dropdown:hover {
       cursor: pointer;
@@ -363,13 +363,13 @@ footer {
       }
     }
   }
+}
+
+@media screen and (max-width: 340px) {
 
   .create {
-    .row {
-      .dropdown {
-        width: 40%;
-      }
+    #findOut {
+      width: 55%;
     }
   }
-
 }
