@@ -41,8 +41,15 @@ $(document).ready(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
        $('body').delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
        $('.goodFit').delay(6000).fadeIn(2000);
-
    }
+  });
+
+  var $prompt = $('.goodFit');
+  var $btn = $('.goodFit > .prompt > ul > a');
+
+  $btn.click(function() {
+    console.log('worked');
+    $prompt.fadeOut(500, easing='swing');
   });
 
 });
