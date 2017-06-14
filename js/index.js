@@ -40,7 +40,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
    if($(window).scrollTop() + $(window).height() == $(document).height()) {
        $('body').delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
-       $('.goodFit').delay(6000).fadeIn(4000);
+       $('.goodFit').delay(6000).fadeIn(2000);
 
    }
   });
