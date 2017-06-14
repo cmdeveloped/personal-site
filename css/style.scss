@@ -274,22 +274,39 @@ footer {
   width: 100%;
   position: fixed;
   z-index: 10;
-  justify-content: center;
-  .contact {
+  .prompt {
     border-radius: 10px;
     background: #fff;
     margin: 30vh auto;
+    padding: 10vh 0;
     text-align: center;
     height: 40vh;
     width: 50%;
     h1 {
-      padding-top: 10vh;
+      margin-top: 0;
       font-family: $open;
       letter-spacing: -1px;
       color: $primary;
     }
     p {
       font-weight: bold;
+    }
+    ul {
+      list-style: none;
+      margin-top: 40px;
+      li {
+        display: inline-block;
+        width: 100px;
+        padding: 10px 0;
+        border: 2px solid #e2e2e2;
+        color: #7b7b7b;
+        margin: 0 10px;
+      }
+      li:hover {
+        color: $primary;
+        border: 2px solid $primary;
+        cursor: pointer;
+      }
     }
   }
 }
