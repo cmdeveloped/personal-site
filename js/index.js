@@ -40,9 +40,9 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function() {
-   if ((navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) || $(window).scrollTop() + $(window).height() == $(document).height()) {
-       $doc.delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
-       $prompt.delay(6000).fadeIn(2000);
+   if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+       $doc.delay(15000).animate({scrollTop: 0}, 2000, easing='swing');
+       $prompt.delay(15000).fadeIn(2000);
    }
   });
 
@@ -53,7 +53,6 @@ $(document).ready(function() {
   $btn.click(function() {
     console.log('worked');
     $prompt.fadeOut(500, easing='swing');
-    $(window).location.reload(true);
   });
 
 });

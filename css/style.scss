@@ -36,7 +36,6 @@ h1, h2, h3 {
   width: 100%;
   position: fixed;
   z-index: 10;
-  cursor: pointer;
   .prompt {
     border-radius: 10px;
     background: #fff;
@@ -301,6 +300,16 @@ footer {
   position: relative;
   bottom: 0;
   color: #fff;
+  #email {
+    p {
+      margin: 10px 0;
+      text-align: left;
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
   #legal {
     p {
       margin: 10px 0;
@@ -310,7 +319,7 @@ footer {
   #address {
     p {
       margin: 10px 0;
-      text-align: left;
+      text-align: center;
     }
   }
 }
@@ -413,6 +422,7 @@ footer {
 @media screen and (max-width: 643px) {
 
   .goodFit {
+    cursor: pointer;
     .prompt {
       width: 90%;
     }
