@@ -6,7 +6,7 @@ $(document).ready(function() {
   var $scroll4 = $('#scrollFour.learnMore');
   var $findID = $('#findOut');
   var $findClass = $('.findOut');
-  var $prompt = $('.goodFit');
+  var $gFit = $('.goodFit');
   var $btn = $('.goodFit > .prompt > ul > a');
 
   // Scroll to Info Section
@@ -40,20 +40,18 @@ $(document).ready(function() {
   });
 
   $(window).scroll(function() {
-   if ((navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) || $(window).scrollTop() + $(window).height() == $(document).height()) {
+   if ($(window).scrollTop() + $(window).height() == $(document).height()) {
        $doc.delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
-       $prompt.delay(6000).fadeIn(2000);
+       $gFit.delay(6000).fadeIn(2000);
    }
   });
 
-  $prompt.click(function() {
-    $prompt.fadeOut(100);
+  $gFit.click(function() {
+    $gFit.fadeOut(100);
   });
 
   $btn.click(function() {
-    console.log('worked');
-    $prompt.fadeOut(500, easing='swing');
-    $(window).location.reload(true);
+    $gFit.fadeOut(500, easing='swing');
   });
 
 });
