@@ -41,13 +41,8 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
    if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-<<<<<<< HEAD
        $doc.delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
        $gFit.delay(6000).fadeIn(2000);
-=======
-       $doc.delay(15000).animate({scrollTop: 0}, 2000, easing='swing');
-       $prompt.delay(15000).fadeIn(2000);
->>>>>>> f8fd109c3b1c68f2eec73affe6981f404f376a66
    }
   });
 
@@ -56,12 +51,7 @@ $(document).ready(function() {
   });
 
   $btn.click(function() {
-<<<<<<< HEAD
     $gFit.fadeOut(500, easing='swing');
-=======
-    console.log('worked');
-    $prompt.fadeOut(500, easing='swing');
->>>>>>> f8fd109c3b1c68f2eec73affe6981f404f376a66
   });
 
 });

@@ -103,6 +103,20 @@ h1, h2, h3 {
         opacity: 1;
       }
   }
+  #contact {
+    position: relative;
+    text-align: left;
+    top: 5%;
+    left: 5%;
+    font-weight: bold;
+    span {
+      margin-right: 15px;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
 }
 
 .learnMore {
@@ -319,7 +333,7 @@ footer {
   #address {
     p {
       margin: 10px 0;
-      text-align: center;
+      text-align: left;
     }
   }
 }
