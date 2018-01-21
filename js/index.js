@@ -41,8 +41,7 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
    if ($(window).scrollTop() + $(window).height() == $(document).height()) {
-       $doc.delay(6000).animate({scrollTop: 0}, 2000, easing='swing');
-       $gFit.delay(6000).fadeIn(2000);
+       $gFit.delay(30000).fadeIn(2000);
    }
   });
 
